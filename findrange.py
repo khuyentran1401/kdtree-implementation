@@ -14,7 +14,7 @@ def latlngToGlobalXY(coords):
 
 if __name__=='__main__':
 
-	df_s = pd.read_json('data/estaciones.json', orient='columns')
+	df_s = pd.read_json('estaciones.json', orient='columns')
 	# Get positions (longitudes/latitudes)
 	stations_positions = df_s[['lon','lat']].values.reshape(-1,2)
 	# Average
