@@ -8,7 +8,7 @@ The article for this repo could be found [here](https://towardsdatascience.com/h
 
 # An example of KdTree
 
-To visualize the data structure of KdTree on a real dataset, I use a dataset for locations of ECOBICI’s stations (Mexico’s City bike public sharing system). To observer the structure, clone this repo then run
+To visualize the data structure of KdTree on a real dataset, I use a dataset for locations of ECOBICI’s stations (Mexico’s City bike public sharing system). To observe the structure, clone this repo then run
 ```
 python ecobi.py
 ```
